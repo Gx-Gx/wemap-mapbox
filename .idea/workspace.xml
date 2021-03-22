@@ -56,14 +56,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f22c1fc-ff4b-4167-b9be-6340ab8a550b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/debug/manager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/style.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/style1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/t.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/debug/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/debug/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +152,7 @@
       <workItem from="1615950976221" duration="12269000" />
       <workItem from="1616036739697" duration="13153000" />
       <workItem from="1616122780774" duration="5540000" />
-      <workItem from="1616382134877" duration="768000" />
+      <workItem from="1616382134877" duration="1005000" />
     </task>
     <servers />
   </component>
