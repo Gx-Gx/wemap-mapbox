@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:devops" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:fix" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:fog" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:karim" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:perf" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:dev-gg-1.1.1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f22c1fc-ff4b-4167-b9be-6340ab8a550b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/debug/manager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug/style.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug/style1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug/t.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/debug/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/debug/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/map.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1opaznf8hiqbRTfbeqjM55duslM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RunManager" selected="npm.build-dev">
+    <configuration name="build-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start-debug" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start-debug" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build-dev" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.start-debug" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f22c1fc-ff4b-4167-b9be-6340ab8a550b" name="Default Changelist" comment="" />
+      <created>1613986250326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613986250326</updated>
+      <workItem from="1613986251536" duration="3164000" />
+      <workItem from="1614051756599" duration="7212000" />
+      <workItem from="1615359975570" duration="4920000" />
+      <workItem from="1615435100195" duration="2024000" />
+      <workItem from="1615521576492" duration="5003000" />
+      <workItem from="1615789115968" duration="3809000" />
+      <workItem from="1615867070815" duration="3999000" />
+      <workItem from="1615950976221" duration="12269000" />
+      <workItem from="1616036739697" duration="13153000" />
+      <workItem from="1616122780774" duration="5540000" />
+      <workItem from="1616382134877" duration="768000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="dev-gg-1.1.1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2558" y="55" width="989" height="970" key="#HTML" timestamp="1615535418092">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2558" y="55" width="989" height="970" key="#HTML/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615535418092" />
+    <state x="2494" y="349" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1616038124663">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2494" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616038124663" />
+    <state x="1892" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1616068125175">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1892" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125175" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1616068125163">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125163" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615543502192" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1616068125161">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125161" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615543502190" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1616068125160">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125160" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615543502189" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1616068125162">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125162" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615543502191" />
+    <state x="2562" y="281" key="VcsDiffUtil.ChangesDialog" timestamp="1616067952145">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2562" y="281" key="VcsDiffUtil.ChangesDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616067952145" />
+    <state x="2412" y="131" width="848" height="710" key="find.popup" timestamp="1616147749874">
+      <screen x="1792" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2412" y="131" width="848" height="710" key="find.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616147749874" />
+    <state x="2570" y="98" width="871" height="675" key="find.popup/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616052318121" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/ui/map.js</url>
+          <line>337</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/ui/map.js</url>
+          <line>1580</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

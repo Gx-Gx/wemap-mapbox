@@ -1578,7 +1578,8 @@ class Map extends Camera {
             canvasContainer.classList.add('mapboxgl-interactive');
         }
 
-        this._canvas = DOM.create('canvas', 'mapboxgl-canvas', canvasContainer);
+        // this._canvas = DOM.create('canvas', 'mapboxgl-canvas', canvasContainer);
+        this._canvas = container.getElementsByTagName("canvas")[0];
         this._canvas.style.position = 'absolute';
         this._canvas.addEventListener('webglcontextlost', this._contextLost, false);
         this._canvas.addEventListener('webglcontextrestored', this._contextRestored, false);
@@ -1615,7 +1616,8 @@ class Map extends Camera {
         });
 
         const gl = this._canvas.getContext('webgl', attributes) ||
-            this._canvas.getContext('experimental-webgl', attributes);
+            this._canvas.getContext('webgl2', attributes) ||
+          this._canvas.getContext('experimental-webgl', attributes);
 
         if (!gl) {
             this.fire(new ErrorEvent(new Error('Failed to initialize WebGL')));

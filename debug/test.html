@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mapbox GL JS debug page</title>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <script charset="utf-8" src="https://wegis.map.qq.com/api/gljs?v=1.exp&key=OB4BZ-D4W3U-B7VVO-4PJWW-6TKDJ-WPB77"></script>
+    <link rel='stylesheet' href='/dist/mapbox-gl.css'/>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body, #map {
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+<div id='map'></div>
+
+<script src='/dist/mapbox-gl-dev.js'></script>
+<script src='/debug/access_token_generated.js'></script>
+<script type="text/javascript">
+// mapboxgl.accessToken = 'pk.eyJ1IjoiZ2VvcmdlZ3VhbiIsImEiOiJja2xicmhyZXgwbm4zMm9xdDhtaXFkejh1In0.ezeFiXzrqQX1J-_27lm1DA';
+// var center = new TMap.LatLng(39.984104, 116.307503);
+var center = new TMap.LatLng(41.878781, -87.622088);
+var myMap = new TMap.Map("map", {
+    zoom: 12,
+    center: center,
+    // baseMap: null
+});
+</script>
+<script type="module">
+import Manager from "./manager.js";
+
+
+var manager = new Manager({map: myMap});
+</script>
+</body>
+</html>

@@ -105,6 +105,7 @@ class Style extends Evented {
     glyphManager: GlyphManager;
     lineAtlas: LineAtlas;
     light: Light;
+    clear: boolean;
 
     _request: ?Cancelable;
     _spriteRequest: ?Cancelable;
@@ -147,6 +148,7 @@ class Style extends Evented {
         this.sourceCaches = {};
         this.zoomHistory = new ZoomHistory();
         this._loaded = false;
+        this.clear = false;
 
         this._resetUpdates();
 
@@ -224,6 +226,9 @@ class Style extends Evented {
         this.stylesheet = json;
 
         for (const id in json.sources) {
+            if (json.sources[id].clear) {
+                this.clear = true;
+            }
             this.addSource(id, json.sources[id], {validate: false});
         }
 
@@ -288,6 +293,9 @@ class Style extends Evented {
     }
 
     loaded() {
+        if (this.clear) {
+            return true;
+        }
         if (!this._loaded)
             return false;
 
@@ -500,6 +508,9 @@ class Style extends Evented {
             throw new Error(`The type property must be defined, but the only the following properties were given: ${Object.keys(source).join(', ')}.`);
         }
 
+        if (this.clear) {
+            return;
+        }
         const builtIns = ['vector', 'raster', 'geojson', 'video', 'image'];
         const shouldValidate = builtIns.indexOf(source.type) >= 0;
         if (shouldValidate && this._validate(validateStyle.source, `sources.${id}`, source, null, options)) return;
