@@ -1671,7 +1671,7 @@ class Map extends Camera {
 
         this._styleDirty = this._styleDirty || updateStyle;
         this._sourcesDirty = true;
-        this.triggerRepaint();
+        // this.triggerRepaint();
 
         return this;
     }
@@ -1919,7 +1919,7 @@ class Map extends Camera {
     set repaint(value: boolean) {
         if (this._repaint !== value) {
             this._repaint = value;
-            this.triggerRepaint();
+            // this.triggerRepaint();
         }
     }
     // show vertices

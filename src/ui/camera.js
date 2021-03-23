@@ -608,23 +608,23 @@ class Camera extends Evented {
         this.fire(new Event('movestart', eventData))
             .fire(new Event('move', eventData));
 
-        if (zoomChanged) {
-            this.fire(new Event('zoomstart', eventData))
-                .fire(new Event('zoom', eventData))
-                .fire(new Event('zoomend', eventData));
-        }
-
-        if (bearingChanged) {
-            this.fire(new Event('rotatestart', eventData))
-                .fire(new Event('rotate', eventData))
-                .fire(new Event('rotateend', eventData));
-        }
-
-        if (pitchChanged) {
-            this.fire(new Event('pitchstart', eventData))
-                .fire(new Event('pitch', eventData))
-                .fire(new Event('pitchend', eventData));
-        }
+        // if (zoomChanged) {
+        //     this.fire(new Event('zoomstart', eventData))
+        //         .fire(new Event('zoom', eventData))
+        //         .fire(new Event('zoomend', eventData));
+        // }
+        //
+        // if (bearingChanged) {
+        //     this.fire(new Event('rotatestart', eventData))
+        //         .fire(new Event('rotate', eventData))
+        //         .fire(new Event('rotateend', eventData));
+        // }
+        //
+        // if (pitchChanged) {
+        //     this.fire(new Event('pitchstart', eventData))
+        //         .fire(new Event('pitch', eventData))
+        //         .fire(new Event('pitchend', eventData));
+        // }
 
         return this.fire(new Event('moveend', eventData));
     }
