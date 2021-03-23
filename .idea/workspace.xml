@@ -50,13 +50,19 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:dev-gg-1.1.1" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:d-gg-render" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f22c1fc-ff4b-4167-b9be-6340ab8a550b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/manager.js" beforeDir="false" afterPath="$PROJECT_DIR$/debug/manager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/style.json" beforeDir="false" afterPath="$PROJECT_DIR$/debug/style.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/style1.json" beforeDir="false" afterPath="$PROJECT_DIR$/debug/style1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/debug/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/render/painter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/render/painter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/map.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +158,8 @@
       <workItem from="1615950976221" duration="12269000" />
       <workItem from="1616036739697" duration="13153000" />
       <workItem from="1616122780774" duration="5540000" />
-      <workItem from="1616382134877" duration="1005000" />
+      <workItem from="1616382134877" duration="11521000" />
+      <workItem from="1616470113152" duration="2811000" />
     </task>
     <servers />
   </component>
@@ -170,7 +177,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="dev-gg-1.1.1" />
+                        <option value="d-gg-render" />
                       </list>
                     </value>
                   </entry>
@@ -192,38 +199,40 @@
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
     <state x="2494" y="349" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616038124663" />
-    <state x="1892" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1616068125175">
+    <state x="0" y="23" width="1792" height="1026" maximized="true" key="DiffContextDialog" timestamp="1616410471910">
+      <screen x="0" y="23" width="1792" height="1026" />
+    </state>
+    <state x="0" y="23" width="1792" height="1026" key="DiffContextDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616405763754" />
+    <state x="4" y="29" width="1786" height="1012" maximized="true" key="DiffContextDialog/0.23.1792.1026/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616405424449" />
+    <state x="0" y="23" width="1792" height="1026" maximized="true" key="DiffContextDialog/0.23.1792.1026/1792.23.1920.1057@1792.23.1920.1057" timestamp="1616410471910" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1616414963136">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state x="1892" y="100" width="1720" height="880" key="DiffContextDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125175" />
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom" timestamp="1616068125163">
-      <screen x="1792" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125163" />
+    <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616414963136" />
     <state width="1899" height="305" key="GridCell.Tab.0.bottom/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615543502192" />
-    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1616068125161">
+    <state width="1899" height="305" key="GridCell.Tab.0.center" timestamp="1616414963133">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125161" />
+    <state width="1899" height="305" key="GridCell.Tab.0.center/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616414963133" />
     <state width="1899" height="305" key="GridCell.Tab.0.center/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615543502190" />
-    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1616068125160">
+    <state width="1899" height="305" key="GridCell.Tab.0.left" timestamp="1616414963133">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125160" />
+    <state width="1899" height="305" key="GridCell.Tab.0.left/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616414963132" />
     <state width="1899" height="305" key="GridCell.Tab.0.left/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615543502189" />
-    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1616068125162">
+    <state width="1899" height="305" key="GridCell.Tab.0.right" timestamp="1616414963134">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616068125162" />
+    <state width="1899" height="305" key="GridCell.Tab.0.right/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616414963134" />
     <state width="1899" height="305" key="GridCell.Tab.0.right/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1615543502191" />
-    <state x="2562" y="281" key="VcsDiffUtil.ChangesDialog" timestamp="1616067952145">
+    <state x="2562" y="281" key="VcsDiffUtil.ChangesDialog" timestamp="1616405470136">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state x="2562" y="281" key="VcsDiffUtil.ChangesDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616067952145" />
-    <state x="2412" y="131" width="848" height="710" key="find.popup" timestamp="1616147749874">
+    <state x="2562" y="281" key="VcsDiffUtil.ChangesDialog/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616405470136" />
+    <state x="2412" y="131" width="848" height="710" key="find.popup" timestamp="1616470734813">
       <screen x="1792" y="0" width="1920" height="1080" />
     </state>
-    <state x="2412" y="131" width="848" height="710" key="find.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616147749874" />
+    <state x="2412" y="131" width="848" height="710" key="find.popup/0.0.1792.1120/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616470734813" />
     <state x="2570" y="98" width="871" height="675" key="find.popup/0.23.1792.1097/1792.0.1920.1080@1792.0.1920.1080" timestamp="1616052318121" />
   </component>
   <component name="XDebuggerManager">
@@ -238,6 +247,11 @@
           <url>file://$PROJECT_DIR$/src/ui/map.js</url>
           <line>1580</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/render/painter.js</url>
+          <line>393</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

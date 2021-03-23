@@ -319,7 +319,7 @@ class Painter {
         return this.currentLayer < this.opaquePassCutoff;
     }
 
-    render(style: Style, options: PainterOptions) {
+    render(style: Style, options: PainterOptions, frameBuffer) {
         this.style = style;
         this.options = options;
 
@@ -388,11 +388,11 @@ class Painter {
         }
 
         // Rebind the main framebuffer now that all offscreen layers have been rendered:
-        this.context.bindFramebuffer.set(null);
+        this.context.bindFramebuffer.set(frameBuffer);
 
         // Clear buffers in preparation for drawing to the main framebuffer
-        this.context.clear({ color: options.showOverdrawInspector ? Color.black : Color.transparent, depth: 1 });
-        this.clearStencil();
+        // this.context.clear({ color: options.showOverdrawInspector ? Color.black : Color.transparent, depth: 1 });
+        // this.clearStencil();
 
         this._showOverdrawInspector = options.showOverdrawInspector;
         this.depthRangeFor3D = [0, 1 - ((style._order.length + 2) * this.numSublayers * this.depthEpsilon)];

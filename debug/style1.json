@@ -202,8 +202,7 @@
     "composite":
     {
       "url": "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v7",
-      "type": "vector",
-      "clear": true
+      "type": "vector"
     }
   }
 ,

@@ -1701,7 +1701,7 @@ class Map extends Camera {
      * @returns {Map} this
      * @private
      */
-    _render() {
+    _render(frameBuffer) {
         // A custom layer may have used the context asynchronously. Mark the state as dirty.
         this.painter.context.setDirty();
         this.painter.setBaseState();
@@ -1754,7 +1754,7 @@ class Map extends Camera {
             zooming: this.isZooming(),
             moving: this.isMoving(),
             fadeDuration: this._fadeDuration
-        });
+        }, frameBuffer);
 
         this.fire(new Event('render'));
 
@@ -1780,7 +1780,7 @@ class Map extends Camera {
         // method, synchronous events fired during Style#update or
         // Style#_updateSources could have caused them to be set again.
         if (this._sourcesDirty || this._repaint || this._styleDirty || this._placementDirty) {
-            this.triggerRepaint();
+            // this.triggerRepaint();
         } else if (!this.isMoving() && this.loaded()) {
             this.fire(new Event('idle'));
         }
