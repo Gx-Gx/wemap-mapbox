@@ -14,22 +14,25 @@
         html, body, #map {
             height: 100%;
         }
+        .mapboxgl-ctrl {
+            display: none !important;
+        }
     </style>
-    <script src='./tmap_gl.js'></script>
-<!--    <script src="../../dist/model.js"></script>-->
+<!--    <script src='./tmap_gl.js'></script>-->
+    <script charset="utf-8" src="https://map.qq.com/api/gljs?v=1.exp&key=OB4BZ-D4W3U-B7VVO-4PJWW-6TKDJ-WPB77"></script>
 </head>
 
 <body>
 <div id='map'></div>
 
 <script src='/dist/mapbox-gl-dev.js'></script>
-<script src='/debug/access_token_generated.js'></script>
+<!--<script src='/debug/access_token_generated.js'></script>-->
 <script type="text/javascript">
 // mapboxgl.accessToken = 'pk.eyJ1IjoiZ2VvcmdlZ3VhbiIsImEiOiJja2xicmhyZXgwbm4zMm9xdDhtaXFkejh1In0.ezeFiXzrqQX1J-_27lm1DA';
 // var center = new TMap.LatLng(39.984104, 116.307503);
-var center = new TMap.LatLng(41.878781, -87.622088);
+var center = new TMap.LatLng(31.382513, 120.965225);
 var myMap = new TMap.Map("map", {
-    zoom: 5,
+    zoom: 7,
     center: center,
     // baseMap: null
 });
@@ -38,7 +41,10 @@ var myMap = new TMap.Map("map", {
 import Manager from "./manager.js";
 
 
-var manager = new Manager({map: myMap});
+var manager = new Manager({
+  map: myMap,
+  mbToken: 'pk.eyJ1IjoiZ2VvcmdlZ3VhbiIsImEiOiJja2xicmhyZXgwbm4zMm9xdDhtaXFkejh1In0.ezeFiXzrqQX1J-_27lm1DA'
+});
 </script>
 </body>
 </html>

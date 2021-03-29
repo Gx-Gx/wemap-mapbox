@@ -1,0 +1,95 @@
+{
+"version": 8,
+"sources": {
+"high_pre": {
+"type": "vector",
+"scheme": "tms",
+"tiles": ["http://58.211.179.194:5673/geoserver2/gwc/service/tms/1.0.0/high:high_high@EPSG:900913@pbf/{z}/{x}/{y}.pbf"],
+"pixelRatio": 2
+}
+},
+
+"layers": [
+{
+"id": "roadnetwork_polygons",
+"type": "fill",
+"minzoom": 15,
+"source": "high_pre",
+"source-layer": "high_high_network_polygon",
+"paint": {
+"fill-color": ["get", "COLOR"],
+"fill-outline-color": "transparent"
+
+},
+"filter": ["==", "GRADE", "0"]
+},
+{
+"id": "roadnetwork_lines",
+"type": "line",
+"minzoom": 15,
+"source": "high_pre",
+"source-layer": "high_high_network_line",
+"paint": {
+"line-width": [
+"interpolate",
+["linear"],
+["zoom"],
+17,
+1,
+22,
+["to-number", ["get", "WIDTH"]]
+],
+"line-color": ["get", "COLOR"]
+}
+},
+{
+"id": "roadnetwork_text",
+"type": "symbol",
+"minzoom": 17,
+"source": "high_pre",
+"source-layer": "high_high_network_symbol",
+"paint": {
+"text-color": ["get", "COLOR"],
+"text-opacity": 1,
+"text-halo-color": "#262626",
+"text-halo-width": 1
+},
+"layout": {
+"text-field": ["get", "TEXT"],
+"text-font": ["Microsoft YaHei"],
+"text-size": ["get", "SIZE"],
+"text-rotate": ["get", "RADIAN"],
+"text-anchor": ["get", "POSITION"],
+"text-rotation-alignment": "map"
+}
+},
+{
+"id": "roadnetwork_polygons1",
+"type": "fill",
+"minzoom": 15,
+"source": "high_pre",
+"source-layer": "high_high_network_polygon",
+"paint": {
+"fill-color": ["get", "COLOR"],
+"fill-outline-color": "transparent"
+
+},
+"filter": ["all", [">=", "GRADE", "1"], ["!=", "COLOR", "#27DF1D"]]
+},
+{
+"id": "roadnetwork_polygons_green",
+"type": "fill-extrusion",
+"minzoom": 15,
+"source": "high_pre",
+"source-layer": "high_high_network_polygon",
+"paint": {
+"fill-extrusion-color": "transparent",
+"fill-extrusion-pattern": "meadow",
+"fill-extrusion-height": 1,
+"fill-extrusion-opacity": 1
+},
+"filter": ["==", "COLOR", "#27DF1D"]
+}
+
+]
+}
